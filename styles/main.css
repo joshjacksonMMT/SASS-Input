@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+.location-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  max-width: 400px;
+  min-width: 268px;
+}
+
+.location-searchbox {
+  display: flex;
+  align-items: center;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.19) 0px 2.5px 5px 0px, rgba(0, 0, 0, 0.23) -2px 1px 6px 0px;
+  -moz-box-shadow: rgba(0, 0, 0, 0.19) 0px 2.5px 5px 0px, rgba(0, 0, 0, 0.23) -2px 1px 6px 0px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 2.5px 5px 0px, rgba(0, 0, 0, 0.23) -2px 1px 6px 0px;
+  border-radius: 2px;
+}
+.location-searchbox .location-searchbox-label {
+  padding: 5px;
+  color: rgba(245, 245, 245, 0.534);
+}
+.location-searchbox .location-searchbox-textfield {
+  width: 100%;
+  height: 45px;
+  padding-left: 10px;
+  background: #FFFFFF;
+  color: #DB977E;
+  font-size: 16px;
+}
+
+.drop-off-checkbox {
+  padding-top: 10px;
+  color: rgba(245, 245, 245, 0.534);
+}
+.drop-off-checkbox input {
+  opacity: 50%;
+}
+
+html, body {
+  /*Fill the screen and remove default margin.*/
+  height: 100%;
+  margin: 0;
+}
+
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100%;
+  background: #3F454E;
+  font-family: "Roboto";
+  font-size: 16px;
+}
+
+/*# sourceMappingURL=main.css.map */
